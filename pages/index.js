@@ -13,7 +13,15 @@ const StyledButton = ({ text, icon }) => (
     }}
   >
     {icon}
-    <p style={{ margin: 0, marginLeft: 10, marginRight: 5 }}>{text}</p>
+    <p
+      style={{
+        margin: 0,
+        marginLeft: 10,
+        marginRight: 5,
+      }}
+    >
+      {text}
+    </p>
   </Button>
 );
 export default function Home() {
@@ -34,13 +42,19 @@ export default function Home() {
           Coming soon.
         </p>
         <div>
-          <a href="https://twitter.com/landboard_io">
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://twitter.com/landboard_io"
+          >
             <StyledButton
               text="Twitter"
               icon={<AiOutlineTwitter style={{ fontSize: "1.2rem" }} />}
             />
           </a>
-          <a href="https://t.me/+abXeMctNaR0xNmY0">
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://t.me/+abXeMctNaR0xNmY0"
+          >
             <StyledButton
               text="Telegram"
               icon={<FaTelegram style={{ fontSize: "1.2rem" }} />}
