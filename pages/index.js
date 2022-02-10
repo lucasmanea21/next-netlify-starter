@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaTelegram } from "react-icons/fa";
 import { Button } from "@mui/material";
@@ -23,7 +21,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Landboard</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://i.ibb.co/zSJh0Bg/HQ3.png" />
       </Head>
 
       <main>
@@ -35,7 +33,7 @@ export default function Home() {
         <p className="description" style={{ fontSize: 24 }}>
           Coming soon.
         </p>
-        <div style={{}}>
+        <div>
           <a href="https://twitter.com/landboard_io">
             <StyledButton
               text="Twitter"
