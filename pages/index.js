@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaTelegram } from "react-icons/fa";
+import { RiFilePaper2Line } from "react-icons/ri";
 import { Button } from "@mui/material";
 
 const StyledButton = ({ text, icon }) => (
@@ -58,6 +59,15 @@ export default function Home() {
             <StyledButton
               text="Telegram"
               icon={<FaTelegram style={{ fontSize: "1.2rem" }} />}
+            />
+          </a>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://gateway.pinata.cloud/ipfs/QmRe3cCFxdc8H4xSxsY1RaBsu9ndnFypcEpuCDac6C9EnL"
+          >
+            <StyledButton
+              text="Litepaper"
+              icon={<RiFilePaper2Line style={{ fontSize: "1.2rem" }} />}
             />
           </a>
         </div>
